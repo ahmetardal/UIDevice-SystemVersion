@@ -18,6 +18,20 @@ A simple, handy UIDevice category that makes checking system version in iOS apps
         // ...
     }
 
+### Important Note
+
+Please make sure you don't write your code solely depending on a certain iOS version for accessing certain APIs and device features in your apps.
+It's always good to check whether the specific API/class/feature is available at runtime before trying to access it.
+
+    if (NSClassFromString(@"AVPlayerItem")) {
+        AVPlayerItem *i = [AVPlayerItem playerItemWithURL:someUrl];
+        // ...
+    }
+    // ...
+    if ([[UIApplication sharedApplication] respondsToSelector:@selector(backgroundTimeRemaining)]) {
+        // ...
+    }
+
 ## Demo App Screenshot
  
  
