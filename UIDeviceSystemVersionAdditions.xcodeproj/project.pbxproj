@@ -16,6 +16,7 @@
 		59B7B41A157DEFBD00EEDDB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B7B419157DEFBD00EEDDB7 /* ViewController.m */; };
 		59B7B41D157DEFBD00EEDDB7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59B7B41B157DEFBD00EEDDB7 /* ViewController.xib */; };
 		59B7B426157DF01A00EEDDB7 /* UIDevice+SystemVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B7B425157DF01A00EEDDB7 /* UIDevice+SystemVersion.m */; };
+		59B7B428157DF86A00EEDDB7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 59B7B427157DF86A00EEDDB7 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		59B7B41C157DEFBD00EEDDB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		59B7B424157DF01A00EEDDB7 /* UIDevice+SystemVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SystemVersion.h"; sourceTree = "<group>"; };
 		59B7B425157DF01A00EEDDB7 /* UIDevice+SystemVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SystemVersion.m"; sourceTree = "<group>"; };
+		59B7B427157DF86A00EEDDB7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				59B7B40F157DEFBD00EEDDB7 /* InfoPlist.strings */,
 				59B7B412157DEFBD00EEDDB7 /* main.m */,
 				59B7B414157DEFBD00EEDDB7 /* UIDeviceSystemVersionAdditions-Prefix.pch */,
+				59B7B427157DF86A00EEDDB7 /* README.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			files = (
 				59B7B411157DEFBD00EEDDB7 /* InfoPlist.strings in Resources */,
 				59B7B41D157DEFBD00EEDDB7 /* ViewController.xib in Resources */,
+				59B7B428157DF86A00EEDDB7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
